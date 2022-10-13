@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='BloomFilter',
     packages=find_packages(),
-    version='0.0.1',
+    version='0.0.2',
     install_requires=[          # 添加了依赖的 package
         'mmh3==3.0.0',
         'math',
